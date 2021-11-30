@@ -1,0 +1,50 @@
+package Java_Programs;
+
+public class CharCount {
+	public static void main(String[] args) {
+		
+		String str="Veloctiy";
+		for (int i=0; i<=str.length()-1;i++) {
+			System.out.println(str.charAt(i));
+		}
+		
+	}
+
+}
+
+
+import java.util.Arrays;
+
+public class CompareTwoArray {
+public static void main(String[] args) {
+	int  ar1[]= {20,30,40,50};
+	
+	int  ar2[]= {20,60,40,50};
+	
+	int  ar3[]= {30,30,40,50};
+	
+	System.out.println(Arrays.equals(ar1, ar2));
+	System.out.println(Arrays.equals(ar1, ar3));
+	
+}
+}
+package Java_Programs;
+
+public class DuplicateArray {
+
+	public static void main(String[] args) {
+		int ar[] = { 25, 23, 31, 27, 55, 4, 25, 30, 23, 55 };
+
+		for (int i = 0; i <= ar.length - 1; i++) {
+
+			for (int j = i + 1; j <= ar.length - 1; j++) {
+
+				if (ar[i] == ar[j]) {
+					System.out.println("Duplicate value is: " + ar[i]);
+				}
+
+			}
+
+		}
+	}
+
