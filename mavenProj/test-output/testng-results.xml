@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16489" started-at="2021-11-26T00:22:47 IST" finished-at="2021-11-26T00:23:03 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16489" started-at="2021-11-26T00:22:47 IST" finished-at="2021-11-26T00:23:03 IST">
+      <class name="testClasses.SignUpExcelTest">
+        <test-method status="PASS" signature="a()[pri:0, instance:testClasses.SignUpExcelTest@9a7504c]" name="a" is-config="true" duration-ms="6300" started-at="2021-11-26T00:22:47 IST" finished-at="2021-11-26T00:22:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="b()[pri:0, instance:testClasses.SignUpExcelTest@9a7504c]" name="b" duration-ms="10009" started-at="2021-11-26T00:22:53 IST" finished-at="2021-11-26T00:23:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method status="PASS" signature="c()[pri:0, instance:testClasses.SignUpExcelTest@9a7504c]" name="c" is-config="true" duration-ms="153" started-at="2021-11-26T00:23:03 IST" finished-at="2021-11-26T00:23:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+      </class> <!-- testClasses.SignUpExcelTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
