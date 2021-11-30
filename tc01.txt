@@ -11,7 +11,7 @@ public class CharCount {
 	}
 
 }
-package Java_Programs;
+
 
 import java.util.Arrays;
 
@@ -21,7 +21,7 @@ public static void main(String[] args) {
 	
 	int  ar2[]= {20,60,40,50};
 	
-	int  ar3[]= {20,30,40,50};
+	int  ar3[]= {30,30,40,50};
 	
 	System.out.println(Arrays.equals(ar1, ar2));
 	System.out.println(Arrays.equals(ar1, ar3));
